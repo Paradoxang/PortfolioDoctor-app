@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-11T23:45:05.403Z",
+  "input": "Quirofano.png",
+  "name": "quirofano",
+  "outDir": "C:\\Users\\Santiago pc\\Proyectos\\Proyecto Portafolio_Doctor\\public\\media",
+  "quality": 72,
+  "type": "image",
+  "source": {
+    "width": 2752,
+    "height": 1536,
+    "hasAlpha": true
+  },
+  "aspectRatio": 1.7917,
+  "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABwAwCdASoYAA0APu1orU6ppiSiMAgBMB2JZQDE2CCzneq11wAA/lI3BsR+V8EsNCwPHnZAGHFVUIusheOn0RvZMoFHAAAA",
+  "widths": [
+    400,
+    800,
+    1200,
+    1600
+  ],
+  "srcset": {
+    "avif": "quirofano-400.avif 400w, quirofano-800.avif 800w, quirofano-1200.avif 1200w, quirofano-1600.avif 1600w",
+    "webp": "quirofano-400.webp 400w, quirofano-800.webp 800w, quirofano-1200.webp 1200w, quirofano-1600.webp 1600w"
+  },
+  "fallback": "quirofano-1600.png",
+  "outputs": [
+    {
+      "format": "avif",
+      "width": 400,
+      "file": "quirofano-400.avif",
+      "kb": 8
+    },
+    {
+      "format": "webp",
+      "width": 400,
+      "file": "quirofano-400.webp",
+      "kb": 9
+    },
+    {
+      "format": "avif",
+      "width": 800,
+      "file": "quirofano-800.avif",
+      "kb": 16
+    },
+    {
+      "format": "webp",
+      "width": 800,
+      "file": "quirofano-800.webp",
+      "kb": 20
+    },
+    {
+      "format": "avif",
+      "width": 1200,
+      "file": "quirofano-1200.avif",
+      "kb": 23
+    },
+    {
+      "format": "webp",
+      "width": 1200,
+      "file": "quirofano-1200.webp",
+      "kb": 33
+    },
+    {
+      "format": "avif",
+      "width": 1600,
+      "file": "quirofano-1600.avif",
+      "kb": 31
+    },
+    {
+      "format": "webp",
+      "width": 1600,
+      "file": "quirofano-1600.webp",
+      "kb": 46
+    },
+    {
+      "format": "png",
+      "width": 1600,
+      "file": "quirofano-1600.png",
+      "kb": 3021,
+      "fallback": true
+    }
+  ]
+}

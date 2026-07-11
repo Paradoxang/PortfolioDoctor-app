@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-11T23:45:01.837Z",
+  "input": "miami.png",
+  "name": "miami",
+  "outDir": "C:\\Users\\Santiago pc\\Proyectos\\Proyecto Portafolio_Doctor\\public\\media",
+  "quality": 72,
+  "type": "image",
+  "source": {
+    "width": 2400,
+    "height": 1792,
+    "hasAlpha": true
+  },
+  "aspectRatio": 1.3393,
+  "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQBACdASoYABIAPtVYok2oJaMiN+gBABqJaQDNwCCb3kVBbmH298J+AAD+ud1WAJWOpDUWXtqGU6+xV0wQiHqCdYJ+6NcKNscxErQA",
+  "widths": [
+    400,
+    800,
+    1200,
+    1600
+  ],
+  "srcset": {
+    "avif": "miami-400.avif 400w, miami-800.avif 800w, miami-1200.avif 1200w, miami-1600.avif 1600w",
+    "webp": "miami-400.webp 400w, miami-800.webp 800w, miami-1200.webp 1200w, miami-1600.webp 1600w"
+  },
+  "fallback": "miami-1600.png",
+  "outputs": [
+    {
+      "format": "avif",
+      "width": 400,
+      "file": "miami-400.avif",
+      "kb": 7
+    },
+    {
+      "format": "webp",
+      "width": 400,
+      "file": "miami-400.webp",
+      "kb": 7
+    },
+    {
+      "format": "avif",
+      "width": 800,
+      "file": "miami-800.avif",
+      "kb": 21
+    },
+    {
+      "format": "webp",
+      "width": 800,
+      "file": "miami-800.webp",
+      "kb": 24
+    },
+    {
+      "format": "avif",
+      "width": 1200,
+      "file": "miami-1200.avif",
+      "kb": 41
+    },
+    {
+      "format": "webp",
+      "width": 1200,
+      "file": "miami-1200.webp",
+      "kb": 50
+    },
+    {
+      "format": "avif",
+      "width": 1600,
+      "file": "miami-1600.avif",
+      "kb": 70
+    },
+    {
+      "format": "webp",
+      "width": 1600,
+      "file": "miami-1600.webp",
+      "kb": 99
+    },
+    {
+      "format": "png",
+      "width": 1600,
+      "file": "miami-1600.png",
+      "kb": 3773,
+      "fallback": true
+    }
+  ]
+}

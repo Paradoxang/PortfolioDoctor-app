@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-11T23:44:57.515Z",
+  "input": "Madrid.png",
+  "name": "madrid",
+  "outDir": "C:\\Users\\Santiago pc\\Proyectos\\Proyecto Portafolio_Doctor\\public\\media",
+  "quality": 72,
+  "type": "image",
+  "source": {
+    "width": 2400,
+    "height": 1792,
+    "hasAlpha": true
+  },
+  "aspectRatio": 1.3393,
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwBACdASoYABIAPu1kqk2ppaQiMAgBMB2JYwDE2BjQli9eKmDUhx2Y0UAA/uNFU4rM6elQP2LUuKl0XX22Pj3wmrGuEaarOAJXgbkk8RzUvmB0MGgAAA==",
+  "widths": [
+    400,
+    800,
+    1200,
+    1600
+  ],
+  "srcset": {
+    "avif": "madrid-400.avif 400w, madrid-800.avif 800w, madrid-1200.avif 1200w, madrid-1600.avif 1600w",
+    "webp": "madrid-400.webp 400w, madrid-800.webp 800w, madrid-1200.webp 1200w, madrid-1600.webp 1600w"
+  },
+  "fallback": "madrid-1600.png",
+  "outputs": [
+    {
+      "format": "avif",
+      "width": 400,
+      "file": "madrid-400.avif",
+      "kb": 17
+    },
+    {
+      "format": "webp",
+      "width": 400,
+      "file": "madrid-400.webp",
+      "kb": 18
+    },
+    {
+      "format": "avif",
+      "width": 800,
+      "file": "madrid-800.avif",
+      "kb": 47
+    },
+    {
+      "format": "webp",
+      "width": 800,
+      "file": "madrid-800.webp",
+      "kb": 53
+    },
+    {
+      "format": "avif",
+      "width": 1200,
+      "file": "madrid-1200.avif",
+      "kb": 84
+    },
+    {
+      "format": "webp",
+      "width": 1200,
+      "file": "madrid-1200.webp",
+      "kb": 101
+    },
+    {
+      "format": "avif",
+      "width": 1600,
+      "file": "madrid-1600.avif",
+      "kb": 127
+    },
+    {
+      "format": "webp",
+      "width": 1600,
+      "file": "madrid-1600.webp",
+      "kb": 157
+    },
+    {
+      "format": "png",
+      "width": 1600,
+      "file": "madrid-1600.png",
+      "kb": 4643,
+      "fallback": true
+    }
+  ]
+}

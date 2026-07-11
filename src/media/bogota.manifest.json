@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-11T23:44:51.622Z",
+  "input": "Bogota.png",
+  "name": "bogota",
+  "outDir": "C:\\Users\\Santiago pc\\Proyectos\\Proyecto Portafolio_Doctor\\public\\media",
+  "quality": 72,
+  "type": "image",
+  "source": {
+    "width": 2400,
+    "height": 1792,
+    "hasAlpha": true
+  },
+  "aspectRatio": 1.3393,
+  "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQBACdASoYABIAPu1kqU2ppaOiMAgBMB2JZwDM0CB/ngWEKg2bunU+STUQAP7AM/2R6EEW3VeNWVZbzvLTdo/nfXIYx9OoP/VwNQAA",
+  "widths": [
+    400,
+    800,
+    1200,
+    1600
+  ],
+  "srcset": {
+    "avif": "bogota-400.avif 400w, bogota-800.avif 800w, bogota-1200.avif 1200w, bogota-1600.avif 1600w",
+    "webp": "bogota-400.webp 400w, bogota-800.webp 800w, bogota-1200.webp 1200w, bogota-1600.webp 1600w"
+  },
+  "fallback": "bogota-1600.png",
+  "outputs": [
+    {
+      "format": "avif",
+      "width": 400,
+      "file": "bogota-400.avif",
+      "kb": 14
+    },
+    {
+      "format": "webp",
+      "width": 400,
+      "file": "bogota-400.webp",
+      "kb": 14
+    },
+    {
+      "format": "avif",
+      "width": 800,
+      "file": "bogota-800.avif",
+      "kb": 41
+    },
+    {
+      "format": "webp",
+      "width": 800,
+      "file": "bogota-800.webp",
+      "kb": 43
+    },
+    {
+      "format": "avif",
+      "width": 1200,
+      "file": "bogota-1200.avif",
+      "kb": 72
+    },
+    {
+      "format": "webp",
+      "width": 1200,
+      "file": "bogota-1200.webp",
+      "kb": 81
+    },
+    {
+      "format": "avif",
+      "width": 1600,
+      "file": "bogota-1600.avif",
+      "kb": 105
+    },
+    {
+      "format": "webp",
+      "width": 1600,
+      "file": "bogota-1600.webp",
+      "kb": 123
+    },
+    {
+      "format": "png",
+      "width": 1600,
+      "file": "bogota-1600.png",
+      "kb": 3805,
+      "fallback": true
+    }
+  ]
+}

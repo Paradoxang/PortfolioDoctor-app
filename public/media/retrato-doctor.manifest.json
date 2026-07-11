@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-11T23:44:46.361Z",
+  "input": "Retrato Doctor.png",
+  "name": "retrato-doctor",
+  "outDir": "C:\\Users\\Santiago pc\\Proyectos\\Proyecto Portafolio_Doctor\\public\\media",
+  "quality": 72,
+  "type": "image",
+  "source": {
+    "width": 1792,
+    "height": 2400,
+    "hasAlpha": true
+  },
+  "aspectRatio": 0.7467,
+  "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoYACAAPu1yrVGppyQiqAqpMB2JZQCnFBEcziD2+n673+7hOOOBPn5Rq+AA/up6SfFAdVCkqAwGQjqpaGNftK9NkHfFv/ptvxxN469xGoVBLv7oqH5t01xNioI5hXdsCxdjfgEeVQuAAA==",
+  "widths": [
+    400,
+    800,
+    1200,
+    1600
+  ],
+  "srcset": {
+    "avif": "retrato-doctor-400.avif 400w, retrato-doctor-800.avif 800w, retrato-doctor-1200.avif 1200w, retrato-doctor-1600.avif 1600w",
+    "webp": "retrato-doctor-400.webp 400w, retrato-doctor-800.webp 800w, retrato-doctor-1200.webp 1200w, retrato-doctor-1600.webp 1600w"
+  },
+  "fallback": "retrato-doctor-1600.png",
+  "outputs": [
+    {
+      "format": "avif",
+      "width": 400,
+      "file": "retrato-doctor-400.avif",
+      "kb": 6
+    },
+    {
+      "format": "webp",
+      "width": 400,
+      "file": "retrato-doctor-400.webp",
+      "kb": 7
+    },
+    {
+      "format": "avif",
+      "width": 800,
+      "file": "retrato-doctor-800.avif",
+      "kb": 14
+    },
+    {
+      "format": "webp",
+      "width": 800,
+      "file": "retrato-doctor-800.webp",
+      "kb": 20
+    },
+    {
+      "format": "avif",
+      "width": 1200,
+      "file": "retrato-doctor-1200.avif",
+      "kb": 29
+    },
+    {
+      "format": "webp",
+      "width": 1200,
+      "file": "retrato-doctor-1200.webp",
+      "kb": 45
+    },
+    {
+      "format": "avif",
+      "width": 1600,
+      "file": "retrato-doctor-1600.avif",
+      "kb": 59
+    },
+    {
+      "format": "webp",
+      "width": 1600,
+      "file": "retrato-doctor-1600.webp",
+      "kb": 87
+    },
+    {
+      "format": "png",
+      "width": 1600,
+      "file": "retrato-doctor-1600.png",
+      "kb": 5600,
+      "fallback": true
+    }
+  ]
+}
