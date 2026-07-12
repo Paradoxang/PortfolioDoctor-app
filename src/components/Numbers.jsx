@@ -10,7 +10,10 @@ const CIFRAS = [
 
 function Contador({ valor, prefijo = '', sufijo }) {
   const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-80px' })
+  // Margen inferior positivo: dispara el conteo cuando el número se acerca al
+  // viewport (incluso desde abajo), no después de entrar. Evita que en pantallas
+  // cortas de móvil la última cifra se quede atascada en 0.
+  const inView = useInView(ref, { once: true, margin: '0px 0px 20% 0px' })
   const motionValue = useMotionValue(0)
   const spring = useSpring(motionValue, { duration: 2200, bounce: 0 })
   const texto = useTransform(spring, (v) => Math.round(v).toLocaleString('es-CO'))
