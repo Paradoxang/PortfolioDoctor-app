@@ -5,7 +5,7 @@ const CIFRAS = [
   { valor: 2400, sufijo: '+', label: 'Procedimientos realizados', nota: 'Cada uno, planeado como el primero.' },
   { valor: 12, prefijo: '+', sufijo: ' años', label: 'Años de experiencia', nota: 'Entre Bogotá, Madrid y Miami.' },
   { valor: 98, sufijo: '%', label: 'Satisfacción de pacientes', nota: 'Medida en controles postoperatorios.' },
-  { valor: 6, sufijo: '', label: 'Certificaciones internacionales', nota: 'Y las que faltan.' },
+  { valor: 7, sufijo: '', label: 'Certificaciones internacionales', nota: 'Y las que faltan.' },
 ]
 
 function Contador({ valor, prefijo = '', sufijo }) {
