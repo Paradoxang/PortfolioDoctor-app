@@ -3,12 +3,12 @@ import { motion, useInView, useMotionValue, useSpring, useTransform } from 'fram
 
 const CIFRAS = [
   { valor: 2400, sufijo: '+', label: 'Procedimientos realizados', nota: 'Cada uno, planeado como el primero.' },
-  { valor: 15, sufijo: '', label: 'Años de experiencia', nota: 'Entre Bogotá, Madrid y Miami.' },
+  { valor: 12, prefijo: '+', sufijo: ' años', label: 'Años de experiencia', nota: 'Entre Bogotá, Madrid y Miami.' },
   { valor: 98, sufijo: '%', label: 'Satisfacción de pacientes', nota: 'Medida en controles postoperatorios.' },
-  { valor: 12, sufijo: '', label: 'Certificaciones internacionales', nota: 'Y las que faltan.' },
+  { valor: 6, sufijo: '', label: 'Certificaciones internacionales', nota: 'Y las que faltan.' },
 ]
 
-function Contador({ valor, sufijo }) {
+function Contador({ valor, prefijo = '', sufijo }) {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
   const motionValue = useMotionValue(0)
@@ -21,6 +21,7 @@ function Contador({ valor, sufijo }) {
 
   return (
     <span ref={ref} className="tabular-nums">
+      {prefijo}
       <motion.span>{texto}</motion.span>
       {sufijo}
     </span>
@@ -36,7 +37,7 @@ export default function Numbers() {
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 border-t border-cream/15">
-        {CIFRAS.map(({ valor, sufijo, label, nota }, i) => (
+        {CIFRAS.map(({ valor, prefijo, sufijo, label, nota }, i) => (
           <motion.div
             key={label}
             initial={{ opacity: 0, y: 40 }}
@@ -46,7 +47,7 @@ export default function Numbers() {
             className="border-b sm:border-r border-cream/15 last:border-r-0 p-8 md:p-10 group hover:bg-cream/5 transition-colors duration-500"
           >
             <p className="font-display-condensed text-6xl md:text-7xl text-sage-mist group-hover:text-sage transition-colors duration-500">
-              <Contador valor={valor} sufijo={sufijo} />
+              <Contador valor={valor} prefijo={prefijo} sufijo={sufijo} />
             </p>
             <p className="mt-4 font-semibold">{label}</p>
             <p className="mt-1 text-sm text-cream/50 label-serif">{nota}</p>

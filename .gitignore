@@ -24,3 +24,9 @@ desktop.ini
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# Ajustes locales de Claude Code
+.claude/settings.local.json
+
+# Imágenes originales (las versiones optimizadas están en public/media)
+/*.png

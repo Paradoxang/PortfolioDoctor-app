@@ -73,7 +73,7 @@ export default function Hero() {
           className="mt-6 max-w-md text-sm md:text-base text-ink/70 leading-relaxed"
         >
           La cirugía plástica como oficio de precisión: resultados naturales,
-          criterio médico y quince años de quirófano.
+          criterio médico y doce años de quirófano.
         </motion.p>
       </div>
 

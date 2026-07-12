@@ -5,7 +5,7 @@ import retratoManifest from '../media/retrato-doctor.manifest.json'
 const DATOS = [
   { k: 'Ubicación', v: 'Bogotá · Colombia' },
   { k: 'Especialidad', v: 'Cirugía plástica, estética y reconstructiva' },
-  { k: 'Trayectoria', v: '15+ años en quirófano' },
+  { k: 'Trayectoria', v: '12+ años en quirófano' },
   { k: 'Estado', v: 'Agenda abierta · 2026', vivo: true },
 ]
 
@@ -90,7 +90,7 @@ export default function About() {
           >
             <p>
               Cirujano plástico certificado, formado en Bogotá y especializado
-              entre Madrid y Miami. Quince años dedicados a un mismo principio:
+              entre Madrid y Miami. Doce años dedicados a un mismo principio:
               el mejor resultado es el que nadie nota, pero todos perciben.
             </p>
             <p>
