@@ -35,24 +35,24 @@ export default function CalendarWidget() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-      className="mt-10 rounded-2xl border border-cream/15 bg-cream/5 p-6 md:p-10"
+      className="mt-8 md:mt-10 rounded-2xl border border-cream/15 bg-cream/5 p-4 sm:p-6 md:p-10"
     >
-      <div className="grid md:grid-cols-5 gap-8">
+      <div className="grid md:grid-cols-5 gap-6 md:gap-8">
         {/* mes */}
         <div className="md:col-span-3">
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-4 md:mb-6">
             <p className="font-display-wide text-sm md:text-base">
               {MESES[mes]} <span className="text-sage-mist">{anio}</span>
             </p>
             <div className="flex gap-2 text-cream/40">
-              <span className="w-8 h-8 grid place-items-center rounded-full border border-cream/15">‹</span>
-              <span className="w-8 h-8 grid place-items-center rounded-full border border-cream/15">›</span>
+              <span className="w-7 h-7 md:w-8 md:h-8 grid place-items-center rounded-full border border-cream/15">‹</span>
+              <span className="w-7 h-7 md:w-8 md:h-8 grid place-items-center rounded-full border border-cream/15">›</span>
             </div>
           </div>
 
-          <div className="grid grid-cols-7 gap-1.5 text-center">
+          <div className="grid grid-cols-7 gap-1 md:gap-1.5 text-center">
             {DIAS.map((d) => (
-              <span key={d} className="eyebrow text-cream/40 py-2">{d}</span>
+              <span key={d} className="eyebrow text-cream/40 py-1 md:py-2">{d}</span>
             ))}
             {Array.from({ length: offset }, (_, i) => (
               <span key={`v-${i}`} />
@@ -64,7 +64,7 @@ export default function CalendarWidget() {
               return (
                 <span
                   key={dia}
-                  className={`aspect-square grid place-items-center rounded-full text-sm tabular-nums transition-colors duration-300 ${
+                  className={`aspect-square grid place-items-center rounded-full text-xs md:text-sm tabular-nums transition-colors duration-300 ${
                     seleccionado
                       ? 'bg-sage text-cream font-bold'
                       : disponible
@@ -82,16 +82,16 @@ export default function CalendarWidget() {
         {/* horarios */}
         <div className="md:col-span-2 md:border-l md:border-cream/15 md:pl-8 flex flex-col">
           <p className="eyebrow text-sage-mist mb-1">Horarios disponibles</p>
-          <p className="label-serif text-cream/60 text-sm mb-5">
+          <p className="label-serif text-cream/60 text-sm mb-3 md:mb-5">
             {diaSeleccionado
               ? `${diaSeleccionado} de ${MESES[mes].toLowerCase()} · valoración 30 min`
               : 'valoración · 30 min'}
           </p>
-          <div className="flex flex-wrap md:flex-col gap-2.5">
+          <div className="flex flex-wrap md:flex-col gap-2 md:gap-2.5">
             {HORARIOS.map((h, i) => (
               <span
                 key={h}
-                className={`px-5 py-2.5 rounded-full text-sm tabular-nums text-center border transition-colors duration-300 ${
+                className={`px-4 py-1.5 md:px-5 md:py-2.5 rounded-full text-xs md:text-sm tabular-nums text-center border transition-colors duration-300 ${
                   i === 1
                     ? 'bg-cream text-ink border-cream font-bold'
                     : 'border-cream/20 text-cream/80 hover:border-sage-mist cursor-pointer'
@@ -101,7 +101,7 @@ export default function CalendarWidget() {
               </span>
             ))}
           </div>
-          <p className="mt-auto pt-6 text-[11px] text-cream/35">
+          <p className="mt-4 md:mt-auto pt-4 md:pt-6 text-[11px] text-cream/35">
             Calendario demostrativo — aquí se conecta Cal.com o Calendly.
           </p>
         </div>

@@ -33,7 +33,7 @@ export default function Agenda() {
     <div className="relative grain bg-ink text-cream px-5 md:px-10 py-24 md:py-36 overflow-hidden">
       <div className="grid lg:grid-cols-12 gap-12">
         {/* título + calendario */}
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-7 min-w-0">
           <p className="eyebrow text-sage-mist mb-8">08 · Agenda</p>
           <motion.h2
             initial={{ opacity: 0, y: 50 }}
@@ -68,7 +68,7 @@ export default function Agenda() {
         </div>
 
         {/* contactos */}
-        <div className="lg:col-span-5 lg:pt-24">
+        <div className="lg:col-span-5 lg:pt-24 min-w-0">
           <p className="label-serif text-sage-mist text-xl mb-6">
             … o por la vía de siempre
           </p>
@@ -85,12 +85,12 @@ export default function Agenda() {
                 transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.08 * i }}
                 className="group flex items-start justify-between gap-4 py-6 border-b border-cream/15 hover:bg-cream/5 transition-colors duration-300 px-2"
               >
-                <div>
+                <div className="min-w-0">
                   <p className="eyebrow text-sage-mist">{canal}</p>
-                  <p className="mt-1 font-semibold text-lg">{valor}</p>
+                  <p className="mt-1 font-semibold text-base md:text-lg break-words">{valor}</p>
                   <p className="text-sm text-cream/50">{nota}</p>
                 </div>
-                <span className="text-xl text-cream/40 transition-all duration-300 group-hover:text-sage-mist group-hover:-translate-y-1 group-hover:translate-x-1">
+                <span className="shrink-0 text-xl text-cream/40 transition-all duration-300 group-hover:text-sage-mist group-hover:-translate-y-1 group-hover:translate-x-1">
                   ↗
                 </span>
               </motion.a>
